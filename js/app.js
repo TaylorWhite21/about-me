@@ -45,21 +45,24 @@ function question2(){
 question2();
 
 // Question Three
-let joinedArmy = prompt('Did I join the Army at 20?').toLowerCase();
+function question3(){
+  let joinedArmy = prompt('Did I join the Army at 20?').toLowerCase();
 
-if(joinedArmy === 'no' || joinedArmy === 'n'){
-  // console.log('You are correct! I joined at 18');
-  alert('You are correct! I joined at 18');
-  score++;
-}
+  if(joinedArmy === 'no' || joinedArmy === 'n'){
+    // console.log('You are correct! I joined at 18');
+    alert('You are correct! I joined at 18');
+    score++;
+  }
 
-else if(joinedArmy === 'yes' || joinedArmy === 'y'){
-  alert('Nope, I was already in Afghanistan at 20');
-}
+  else if(joinedArmy === 'yes' || joinedArmy === 'y'){
+    alert('Nope, I was already in Afghanistan at 20');
+  }
 
-else{
-  alert('Pretty sure I asked you to answer yes or no.');
+  else{
+    alert('Pretty sure I asked you to answer yes or no.');
+  }
 }
+question3();
 
 //Question Four
 let dream = prompt('Do I want to teach kids how to code?').toLowerCase();
