@@ -5,20 +5,22 @@ let username = prompt('Hi! What is your name?');
 alert('Welcome ' + username + '!  Please answer the following questions with yes/no or y/n');
 
 //Question One
-let videoGame = prompt('Is my favorite video game series Kingdom Hearts?').toLowerCase();
+function question1(){
+  let videoGame = prompt('Is my favorite video game series Kingdom Hearts?').toLowerCase();
 
-if(videoGame === 'yes' || videoGame === 'y'){
-  // console.log('You are correct! Sanctuary is also the best song ever made. You should listen to it');
-  alert('You are correct! Sanctuary is also the best song ever made. You should listen to it');
-  score++;
-}
+  if(videoGame === 'yes' || videoGame === 'y'){
+   // console.log('You are correct! Sanctuary is also the best song ever made. You should listen to it');
+   alert('You are correct! Sanctuary is also the best song ever made. You should listen to it');
+    score++;
+  }
 
-else if(videoGame === 'no' || videoGame === 'n'){
-  alert('Incorrect, it\'s my favorite series of all time.');
-}
+  else if(videoGame === 'no' || videoGame === 'n'){
+    alert('Incorrect, it\'s my favorite series of all time.');
+  }
 
-else{
-  alert('Pretty sure I asked you to answer yes or no.');
+  else{
+    alert('Pretty sure I asked you to answer yes or no.');
+  }
 }
 
 //Question Two
