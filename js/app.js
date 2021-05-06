@@ -148,7 +148,7 @@ question6();
 function question7(){
   let guesses = 6;
   let guessedCorrectly = false;
-  let classes = ['warlock', 'barbarian', 'wizard', 'rogue', 'paladin', 'bard', 'cleric', 'druid', 'fighter', 'monk', 'ranger',  'sorcerer'];
+  let classes = ['warlock', 'barbarian', 'wizard', 'rogue', 'paladin', 'bard', 'cleric', 'druid', 'fighter', 'monk', 'ranger', 'sorcerer'];
 
   while (guesses && !guessedCorrectly){
     let userInput = prompt(`Name a class that you can play as in Dungeons and Dragons. You have ${guesses}.`).toLowerCase();

@@ -1,5 +1,5 @@
-body {
-    background-image: url(/img/unnamed.jpg);
+* {
+    background-image: url("../img/unnamed.jpg");
     background-repeat: no-repeat;
 }
 
@@ -11,7 +11,7 @@ body {
 ul {
     margin: 20px;
     padding: 20px 0;
-    border: 3px solid green;
+    border: 3px solid white;
     text-align: left;
     font-size: large;
     list-style-type: upper-roman;
@@ -31,7 +31,7 @@ h1 {
 
 h1.about {
     padding: 20px 0;
-    border: 3px solid green;
+    border: 3px solid white;
     text-align: center;
     font-size: large;
     font-family: 'Lucida';
@@ -45,7 +45,7 @@ h1.game {
 
 h1.topten {
     padding: 20px 0;
-    border: 3px solid green;
+    border: 3px solid white;
     text-align: center;
     font-size: large;
     font-family: Papyrus;
@@ -57,13 +57,13 @@ h2 {
 
 p.Bio {
     padding: 7px 0;
-    border: 3px solid green;
+    border: 3px solid white;
     text-align: center;
     /* margin-right: 900px; */
 }
 
 li {
-    border: 3px solid green;
+    border: 3px solid white;
     text-align: center;
 }
 
