@@ -9,8 +9,8 @@ function question1(){
   let videoGame = prompt('Is my favorite video game series Kingdom Hearts?').toLowerCase();
 
   if(videoGame === 'yes' || videoGame === 'y'){
-   // console.log('You are correct! Sanctuary is also the best song ever made. You should listen to it');
-   alert('You are correct! Sanctuary is also the best song ever made. You should listen to it');
+    // console.log('You are correct! Sanctuary is also the best song ever made. You should listen to it');
+    alert('You are correct! Sanctuary is also the best song ever made. You should listen to it');
     score++;
   }
 
