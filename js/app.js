@@ -83,22 +83,26 @@ function question4(){
   }
 }
 question4();
+
 //Question Five
-let pizza = prompt('Does pineapple belong on pizza? Look at the page closely').toLowerCase();
+function question5(){
+  let pizza = prompt('Does pineapple belong on pizza? Look at the page closely').toLowerCase();
 
-if(pizza === 'no' || pizza === 'n'){
-  // console.log('Exactly! Glad to see you aren\'t a heathen');
-  alert('Exactly! Glad to see you aren\'t a heathen');
-  score++;
-}
+  if(pizza === 'no' || pizza === 'n'){
+    // console.log('Exactly! Glad to see you aren\'t a heathen');
+    alert('Exactly! Glad to see you aren\'t a heathen');
+    score++;
+  }
 
-else if(pizza === 'yes' || pizza === 'y'){
-  alert('How do you live with yourself?');
-}
+  else if(pizza === 'yes' || pizza === 'y'){
+    alert('How do you live with yourself?');
+  }
 
-else{
-  alert('Pretty sure I asked you to answer yes or no.');
+  else{
+    alert('Pretty sure I asked you to answer yes or no.');
+  }
 }
+question5();
 
 // Question 6
 let numberOfGames = '17';
