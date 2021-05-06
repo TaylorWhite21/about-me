@@ -105,41 +105,44 @@ function question5(){
 question5();
 
 // Question 6
-let numberOfGames = '17';
-let attemptsRemaining = 4;
-let answeredCorrectly = false;
+function question6(){
+  let numberOfGames = '17';
+  let attemptsRemaining = 4;
+  let answeredCorrectly = false;
 
-while (attemptsRemaining && !answeredCorrectly){
+  while (attemptsRemaining && !answeredCorrectly){
 
-  let kingdomHearts = prompt(`How many games does the Kingdom Hearts series have? You have ${attemptsRemaining} attempts`);
-  attemptsRemaining--;
+    let kingdomHearts = prompt(`How many games does the Kingdom Hearts series have? You have ${attemptsRemaining} attempts`);
+    attemptsRemaining--;
 
-  if (kingdomHearts === numberOfGames){
-    // console.log(`you guessed ${kingdomHearts}. That is correct and they are all amazing. (Except for Chain of Memories) You had ${attemptsRemaining} attempts remaining.`);
-    alert(`you guessed ${kingdomHearts}. That is correct and they are all amazing. (Except for Chain of Memories) You had ${attemptsRemaining} attempts remaining.`);
-    answeredCorrectly = true;
-    score++;
+    if (kingdomHearts === numberOfGames){
+      // console.log(`you guessed ${kingdomHearts}. That is correct and they are all amazing. (Except for Chain of Memories) You had $  {attemptsRemaining} attempts remaining.`);
+      alert(`you guessed ${kingdomHearts}. That is correct and they are all amazing. (Except for Chain of Memories) You had $ {attemptsRemaining} attempts remaining.`);
+      answeredCorrectly = true;
+      score++;
+    }
+
+    else if (kingdomHearts < numberOfGames){
+      // console.log(`you guessed ${kingdomHearts}. That is too low. You have ${attemptsRemaining}.`);
+      alert(`you guessed ${kingdomHearts}. That is too low. You have ${attemptsRemaining} attempts remaining.`);
+    }
+
+    else if (kingdomHearts > numberOfGames){
+      // console.log(`you guessed ${kingdomHearts}. That is too high. You have ${attemptsRemaining}.`);
+      alert(`you guessed ${kingdomHearts}. That is too high. You have ${attemptsRemaining}attempts remaining.`);
+    }
+
+    else {
+      // console.log(`Please enter a number. You have ${attemptsRemaining}.`);
+      alert(`Please enter a number. You have ${attemptsRemaining}attempts remaining.`);
+    }
   }
-
-  else if (kingdomHearts < numberOfGames){
-    // console.log(`you guessed ${kingdomHearts}. That is too low. You have ${attemptsRemaining}.`);
-    alert(`you guessed ${kingdomHearts}. That is too low. You have ${attemptsRemaining} attempts remaining.`);
-  }
-
-  else if (kingdomHearts > numberOfGames){
-    // console.log(`you guessed ${kingdomHearts}. That is too high. You have ${attemptsRemaining}.`);
-    alert(`you guessed ${kingdomHearts}. That is too high. You have ${attemptsRemaining}attempts remaining.`);
-  }
-
-  else {
-    // console.log(`Please enter a number. You have ${attemptsRemaining}.`);
-    alert(`Please enter a number. You have ${attemptsRemaining}attempts remaining.`);
+  if (attemptsRemaining === 0 && !answeredCorrectly){
+    // console.log('Nice try, The correct answer is 17 and I have played them all.');
+    alert('Nice try, The correct answer is 17 and I have played them all.');
   }
 }
-if (attemptsRemaining === 0 && !answeredCorrectly){
-  // console.log('Nice try, The correct answer is 17 and I have played them all.');
-  alert('Nice try, The correct answer is 17 and I have played them all.');
-}
+question6();
 
 // Question 7
 let guesses = 6;
