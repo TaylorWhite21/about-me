@@ -1,17 +1,22 @@
-* {
+body {
     background-image: url("../img/unnamed.jpg");
     background-repeat: no-repeat;
-}
-
-* {
+    background-size: cover;
     color: chartreuse;
     margin-right: 900px;
+}
+
+h1.game {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: firebrick;
 }
 
 ul {
     margin: 20px;
     padding: 20px 0;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     text-align: left;
     font-size: large;
     list-style-type: upper-roman;
@@ -31,21 +36,17 @@ h1 {
 
 h1.about {
     padding: 20px 0;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     text-align: center;
     font-size: large;
     font-family: 'Lucida';
 }
 
-h1.game {
-    margin-top: 30px;
-    font-size: 30px;
-    text-align: center;
-}
+
 
 h1.topten {
     padding: 20px 0;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     text-align: center;
     font-size: large;
     font-family: Papyrus;
@@ -57,13 +58,14 @@ h2 {
 
 p.Bio {
     padding: 7px 0;
-    border: 3px solid white;
+    /* border: 3px solid white; */
+    font-size: medium;
     text-align: center;
     /* margin-right: 900px; */
 }
 
 li {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     text-align: center;
 }
 
