@@ -65,22 +65,24 @@ function question3(){
 question3();
 
 //Question Four
-let dream = prompt('Do I want to teach kids how to code?').toLowerCase();
+function question4(){
+  let dream = prompt('Do I want to teach kids how to code?').toLowerCase();
 
-if(dream === 'yes' || dream === 'y'){
-  // console.log('Yup! I love teaching kids new things and helping people in need.');
-  alert('Yup! I love teaching kids new things and helping people in need.');
-  score++;
+  if(dream === 'yes' || dream === 'y'){
+    // console.log('Yup! I love teaching kids new things and helping people in need.');
+    alert('Yup! I love teaching kids new things and helping people in need.');
+    score++;
+  }
+
+  else if(dream === 'no' || dream === 'n'){
+    alert('Of course I want to. It\'s my most desired goal.');
+  }
+
+  else{
+    alert('Pretty sure I asked you to answer yes or no.');
+  }
 }
-
-else if(dream === 'no' || dream === 'n'){
-  alert('Of course I want to. It\'s my most desired goal.');
-}
-
-else{
-  alert('Pretty sure I asked you to answer yes or no.');
-}
-
+question4();
 //Question Five
 let pizza = prompt('Does pineapple belong on pizza? Look at the page closely').toLowerCase();
 
