@@ -1,22 +1,76 @@
 * {
-    background-color: bisque;
+    background-image: url(/img/unnamed.jpg);
+    background-repeat: no-repeat;
+}
+
+* {
+    color: chartreuse;
+    margin-right: 900px;
 }
 
 ul {
     margin: 20px;
-    list-style-type: disc;
+    padding: 20px 0;
+    border: 3px solid green;
+    text-align: left;
+    font-size: large;
+    list-style-type: upper-roman;
+    font-family: Papyrus;
 }
 
 ol {
     padding: 20px;
     list-style-position: inside;
     list-style: square;
+    text-align: center;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 10px;
+}
+
+h1.about {
+    padding: 20px 0;
+    border: 3px solid green;
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida';
+}
+
+h1.game {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1.topten {
+    padding: 20px 0;
+    border: 3px solid green;
+    text-align: center;
+    font-size: large;
+    font-family: Papyrus;
 }
 
 h2 {
     font-size: 1;
+}
+
+p.Bio {
+    padding: 7px 0;
+    border: 3px solid green;
+    text-align: center;
+    /* margin-right: 900px; */
+}
+
+li {
+    border: 3px solid green;
+    text-align: center;
+}
+
+iframe {
+    /* padding: 30px; */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
