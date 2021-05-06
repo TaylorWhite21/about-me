@@ -145,30 +145,34 @@ function question6(){
 question6();
 
 // Question 7
-let guesses = 6;
-let guessedCorrectly = false;
-let classes = ['warlock', 'barbarian', 'wizard', 'rogue', 'paladin', 'bard', 'cleric', 'druid', 'fighter', 'monk', 'ranger', 'sorcerer'];
+function question7(){
+  let guesses = 6;
+  let guessedCorrectly = false;
+  let classes = ['warlock', 'barbarian', 'wizard', 'rogue', 'paladin', 'bard', 'cleric', 'druid', 'fighter', 'monk', 'ranger',  'sorcerer'];
 
-while (guesses && !guessedCorrectly){
-  let userInput = prompt(`Name a class that you can play as in Dungeons and Dragons. You have ${guesses}.`).toLowerCase();
-  guesses--;
+  while (guesses && !guessedCorrectly){
+    let userInput = prompt(`Name a class that you can play as in Dungeons and Dragons. You have ${guesses}.`).toLowerCase();
+    guesses--;
 
-  for (let i = 0; i < classes.length; i++){
-    if (userInput === classes[i]){
-      guessedCorrectly = true;
+    for (let i = 0; i < classes.length; i++){
+      if (userInput === classes[i]){
+        guessedCorrectly = true;
+      }
     }
   }
-}
 
-if (guessedCorrectly){
-  // console.log(`Correct! All the classes are: ${classes} . My favorite to play is a Rogue.`);
-  alert(`Correct! All the classes are: ${classes} . My favorite to play is a Rogue.`);
-  score++;
+  if (guessedCorrectly){
+    // console.log(`Correct! All the classes are: ${classes} . My favorite to play is a Rogue.`);
+    alert(`Correct! All the classes are: ${classes} . My favorite to play is a Rogue.`);
+    score++;
+  }
+  else {
+    // console.log(`Aw man, nice try. All the classes are: ${classes}.`);
+    alert(`Aw man, nice try. All the classes are: ${classes}.`);
+  }
 }
-else {
-  // console.log(`Aw man, nice try. All the classes are: ${classes}.`);
-  alert(`Aw man, nice try. All the classes are: ${classes}.`);
-}
+question7();
+
 // This can be used to replace lines 130-132
 // guessedCorrectly = userInput === classes[i] || guessedCorrectly;
 
