@@ -7,6 +7,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 ### Author: Taylor White
 
 ### Collaborators:
+[Yirim Seck](https://github.com/YirimS)
 
 
 ### Links and Resources
