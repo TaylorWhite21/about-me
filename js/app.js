@@ -22,23 +22,27 @@ function question1(){
     alert('Pretty sure I asked you to answer yes or no.');
   }
 }
+question1();
 
 //Question Two
-let hometown = prompt('Is my hometown Whittier,CA?').toLowerCase();
+function question2(){
+  let hometown = prompt('Is my hometown Whittier,CA?').toLowerCase();
 
-if(hometown === 'yes' || hometown === 'y'){
-  // console.log('You are correct! I do miss it sometimes');
-  alert('You are correct! I do miss it sometimes');
-  score++;
-}
+  if(hometown === 'yes' || hometown === 'y'){
+    // console.log('You are correct! I do miss it sometimes');
+    alert('You are correct! I do miss it sometimes');
+    score++;
+  }
 
-else if(hometown === 'no' || hometown === 'n'){
-  alert('Sorry, that\'s wrong. I am from Whittier, CA.');
-}
+  else if(hometown === 'no' || hometown === 'n'){
+    alert('Sorry, that\'s wrong. I am from Whittier, CA.');
+  }
 
-else{
-  alert('Pretty sure I asked you to answer yes or no.');
+  else{
+    alert('Pretty sure I asked you to answer yes or no.');
+  }
 }
+question2();
 
 // Question Three
 let joinedArmy = prompt('Did I join the Army at 20?').toLowerCase();
