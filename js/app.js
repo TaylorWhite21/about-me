@@ -107,13 +107,13 @@ question5();
 
 // Question 6
 function question6(){
-  let numberOfGames = '17';
+  let numberOfGames = 17;
   let attemptsRemaining = 4;
   let answeredCorrectly = false;
 
   while (attemptsRemaining && !answeredCorrectly){
 
-    let kingdomHearts = prompt(`How many games does the Kingdom Hearts series have? You have ${attemptsRemaining} attempts`);
+    let kingdomHearts = +prompt(`How many games does the Kingdom Hearts series have? You have ${attemptsRemaining} attempts`);
     attemptsRemaining--;
 
     if (kingdomHearts === numberOfGames){
