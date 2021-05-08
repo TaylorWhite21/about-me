@@ -1,14 +1,10 @@
-# about-me
-# LAB - 2,3
-## About Me Project
-
+# About Me Project
 I built a decent webpage that asks questions about me and what I like. You can find out more information about me and my project there.
 
 ### Author: Taylor White
 
 ### Collaborators:
 [Yirim Seck](https://github.com/YirimS)
-
 
 ### Links and Resources
 * https://www.w3schools.com/css/default.asp
