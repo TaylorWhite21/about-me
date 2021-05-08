@@ -2,7 +2,7 @@
 # LAB - 2,3
 ## About Me Project
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+I built a decent webpage that asks questions about me and what I like. You can find out more information about me and my project there.
 
 ### Author: Taylor White
 
@@ -11,9 +11,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
+* https://www.w3schools.com/css/default.asp
 
 ### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+*I realized just how difficult CSS is and that not many people know it well. I would like to practice it more although I am not looking forward to color theory and user experience haha.
